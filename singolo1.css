@@ -115,7 +115,6 @@ body {
     width: 100%;
     height: 430px;
     margin-left: 12px;
-    <<<<<<< HEAD
 }
 
 .services {
@@ -158,8 +157,18 @@ body {
 }
 
 .service__icon {
+    margin-top: 32px;
+    margin-left: 13px;
     width: 32px;
     height: 32px;
+}
+
+.ellipse_icon {
+    margin-top: 20px;
+    width: 59px;
+    height: 59px;
+    border-radius: 35px;
+    position: absolute;
 }
 
 .service__content {
