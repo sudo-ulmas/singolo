@@ -1,0 +1,158 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    max-width: 1020px;
+    background-color: #F06C64;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.contact__title {
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+    padding: 69px 40px 0px;
+}
+
+.contact__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 48px;
+}
+
+.layout-2-column {
+    padding: 0 30px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout-2-column__mini {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-form__input {
+    width: 618px;
+    height: 35px;
+    background-color: #D6564F;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.layout-2-column>* {
+    flex-basis: 32%;
+}
+
+.contact-form__input::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+.contact-form__textarea {
+    width: 615px;
+    height: 205px;
+    background-color: #D6564F;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form__textarea::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    padding-left: 16px;
+    padding-top: 9px;
+}
+
+.info-contact {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.info-text {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.icon {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.icon_location {
+    background-image: url("/assets/location.svg");
+    width: 7px;
+    height: 11px;
+}
+
+.icon_phone {
+    background-image: url("/assets/phone.svg");
+    width: 11px;
+    height: 11px;
+}
+
+.icon_email {
+    background-image: url("/assets/mail.svg");
+    width: 13px;
+    height: 8px;
+}
+
+.footer {
+    width: 1020px;
+    height: 76px;
+    margin: 0 auto;
+    background-color: #2d303a;
+}
+
+.footer__wrapper {
+    width: 940px;
+    height: 76px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    padding-left: 3px;
+}
+
+.footer__icon {
+    width: 153px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+
+/*.layout-2-column>* {
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-basis: 45%;
+}*/
