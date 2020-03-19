@@ -12,20 +12,20 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header" id="header">
             <h1 class="header__logo">singolo<span>*</span></h1>
             <nav>
                 <ul class="navigation">
-                    <li class="navigation__item">Home</li>
-                    <li class="navigation__item">Services</li>
-                    <li class="navigation__item">Portfolio</li>
-                    <li class="navigation__item">About</li>
-                    <li class="navigation__item">Contact</li>
+                    <li class="navigation__item"><a href="#slider">Home</a></li>
+                    <li class="navigation__item"><a href="#service">Services</a></li>
+                    <li class="navigation__item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="navigation__item"><a href="#about">About</a></li>
+                    <li class="navigation__item"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <div class="header__bottom"></div>
-        <main class="slider">
+        <main class="slider" id="slider">
             <img src="./assets/images/arrow-left.png" alt="button" class="slider__btn_left">
             <img src="./assets/images/phone-ver.png" alt="phone" class="slider__phone_ver">
             <img src="./assets/images/phone-gor.png" alt="phone" class="slider__phone_gor">
@@ -34,7 +34,7 @@
             <img src="./assets/images/arrow-right.png" alt="button" class="slider__btn_right">
         </main>
         <div class="slider__bottom"></div>
-        <section class="service">
+        <section class="service" id="service">
             <h2 class="service__title">Our Services</h2>
             <h3 class="service__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
                 mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus,
@@ -91,7 +91,7 @@
             </div>
         </section>
         <div class="service__bottom"></div>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="portfolio__wrapper">
                 <h2 class="portfolio__title">Portfolio</h2>
                 <h3 class="portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
@@ -119,7 +119,7 @@
             </div>
         </section>
         <div class="portfolio__bottom"></div>
-        <section class="about-us">
+        <section class="about-us" id="about">
             <div class="about-us__wrapper">
                 <h2 class="about-us__title">About Us</h2>
                 <h3 class="about-us__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
@@ -212,7 +212,7 @@
                             placeholder="Describe your project in detail..." maxlength="400" rows="5"></textarea>
                         <button type="submit" name="submit" id="submit" class="form__submit">Submit</button>
                     </form>
-                    <div class="contact">
+                    <div class="contact" id="contact">
                         <h3 class="contact__title">Contact Information</h3>
                         <p class="contact__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
                             nibh.
@@ -256,5 +256,5 @@
         </footer>
     </div>
 </body>
-
+<script src="script.js"></script>
 </html>

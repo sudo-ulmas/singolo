@@ -1,9 +1,21 @@
+a{
+  text-decoration: none;
+  color: inherit;  
+}
+
 .wrapper {
     width: 1020px;
     height: 1095px;
     margin: 0 auto;
 }
-
+#header{
+    position: fixed;
+ 
+  z-index: 3;
+}
+#slider{
+    margin-top: 80px;
+}
 .header {
     width: 1020px;
     height: 89px;
