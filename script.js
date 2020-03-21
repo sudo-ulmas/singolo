@@ -5,7 +5,7 @@ let sections = document.querySelectorAll('.wrapper > section');
 let vbScreen = document.getElementById('black_vertical');
 let hbScreen = document.getElementById('black_horizontal');
 
-
+//TODO: make carousel
 
 menu.addEventListener('click', (event) => {
     lishki.forEach(el => el.classList.remove('current'));
