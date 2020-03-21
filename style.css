@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 a{
   text-decoration: none;
   color: inherit;  
@@ -53,10 +56,12 @@ a{
     text-transform: uppercase;
 }
 
-.navigation__item:first-child {
+.current{
     color: rgba(240, 108, 100, 255);
 }
-
+li:not(.current){
+    color: white;
+}
 .navigation__item:hover {
     cursor: pointer;
     color: rgba(240, 108, 100, 255);

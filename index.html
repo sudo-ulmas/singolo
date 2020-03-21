@@ -15,8 +15,8 @@
         <header class="header" id="header">
             <h1 class="header__logo">singolo<span>*</span></h1>
             <nav>
-                <ul class="navigation">
-                    <li class="navigation__item"><a href="#slider">Home</a></li>
+                <ul class="navigation" id="menu">
+                    <li class="navigation__item"><a href="#slider" class="current">Home</a></li>
                     <li class="navigation__item"><a href="#service">Services</a></li>
                     <li class="navigation__item"><a href="#portfolio">Portfolio</a></li>
                     <li class="navigation__item"><a href="#about">About</a></li>
@@ -25,14 +25,14 @@
             </nav>
         </header>
         <div class="header__bottom"></div>
-        <main class="slider" id="slider">
+        <section class="slider" id="slider">
             <img src="./assets/images/arrow-left.png" alt="button" class="slider__btn_left">
             <img src="./assets/images/phone-ver.png" alt="phone" class="slider__phone_ver">
             <img src="./assets/images/phone-gor.png" alt="phone" class="slider__phone_gor">
             <img src="./assets/images/Shadow-ver.png" alt="shadow" class="slider__shadow_ver">
             <img src="./assets/images/Shadow-gor.png" alt="shadow" class="slider__shadow_gor">
             <img src="./assets/images/arrow-right.png" alt="button" class="slider__btn_right">
-        </main>
+        </section>
         <div class="slider__bottom"></div>
         <section class="service" id="service">
             <h2 class="service__title">Our Services</h2>
@@ -194,7 +194,7 @@
             </div>
         </section>
         <div class="about-us__bottom"></div>
-        <section class="quote">
+        <section class="quote" id="contact">
             <div class="quote__wrapper">
                 <h2 class="quote__title">Get a Quote</h2>
                 <h3 class="quote__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
