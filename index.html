@@ -26,14 +26,41 @@
         </header>
         <div class="header__bottom"></div>
         <section class="slider" id="slider">
-            <img src="./assets/images/arrow-left.png" alt="button" class="slider__btn_left">
-            <img src="./assets/images/phone-ver.png" alt="phone" class="slider__phone_ver">
-            <img src="./assets/images/black.png" alt="black screen" id="black_vertical"  style="z-index: 0;">
-            <img src="./assets/images/phone-gor.png" alt="phone" class="slider__phone_gor">
-            <img src="./assets/images/black.png" alt="black screen" id="black_horizontal" style="z-index: 0;">
-            <img src="./assets/images/Shadow-ver.png" alt="shadow" class="slider__shadow_ver">
-            <img src="./assets/images/Shadow-gor.png" alt="shadow" class="slider__shadow_gor">
-            <img src="./assets/images/arrow-right.png" alt="button" class="slider__btn_right">
+            <div class="carousel">
+                <div class="false_green">
+                <img src="./assets/images/arrow-left.png" alt="button" class="slider__btn_left">
+                    <img src="./assets/images/slider.png">
+                <img src="./assets/images/arrow-right.png" alt="button" class="slider__btn_right">
+                </div>
+            <div class="first_slide">
+                <img src="./assets/images/slider-bg.png" class="slider__bg">
+               
+                <img src="./assets/images/phone-ver.png" alt="phone" class="slider__phone_ver">
+                <img src="./assets/images/black.png" alt="black screen" id="black_vertical" style="z-index: 0;">
+                <img src="./assets/images/phone-gor.png" alt="phone" class="slider__phone_gor">
+                <img src="./assets/images/black.png" alt="black screen" id="black_horizontal" style="z-index: 0;">
+                <img src="./assets/images/Shadow-ver.png" alt="shadow" class="slider__shadow_ver">
+                <img src="./assets/images/Shadow-gor.png" alt="shadow" class="slider__shadow_gor">
+                
+            </div>
+                <div class="second_slide">
+                
+                  <img src="./assets/images/slider.png">
+                
+                </div>
+                <div class="false_red">
+                    <img src="./assets/images/slider-bg.png" class="slider__bg">
+                    
+                    <img src="./assets/images/phone-ver.png" alt="phone" class="slider__phone_ver">
+                    <img src="./assets/images/black.png" alt="black screen" id="black_vertical" style="z-index: 0;">
+                    <img src="./assets/images/phone-gor.png" alt="phone" class="slider__phone_gor">
+                    <img src="./assets/images/black.png" alt="black screen" id="black_horizontal" style="z-index: 0;">
+                    <img src="./assets/images/Shadow-ver.png" alt="shadow" class="slider__shadow_ver">
+                    <img src="./assets/images/Shadow-gor.png" alt="shadow" class="slider__shadow_gor">
+                    
+                </div>
+    
+            </div>
         </section>
         <div class="slider__bottom"></div>
         <section class="service" id="service">
@@ -204,16 +231,28 @@
                     dapibus,
                     tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
                 <div class="contact-container">
-                    <form action="#" method="GET" class="form">
+                    <form action="#" method="GET" class="form" name="contact" id="formId">
                         <input type="text" name="name" id="name" class="form__name" placeholder="Name (Required)"
                             required>
-                        <input type="email" name="mail" id="email" class="form__mail" placeholder="Email (Required)"
+                        <input type="email" name="email" id="email" class="form__mail" placeholder="Email (Required)"
                             required>
                         <input type="text" name="subject" id="subject" class="form__subject" placeholder="Subject">
                         <textarea name="textarea" id="textarea" class="form__textarea"
                             placeholder="Describe your project in detail..." maxlength="400" rows="5"></textarea>
-                        <button type="submit" name="submit" id="submit" class="form__submit">Submit</button>
+                        <button type="button" name="submit" id="submit" class="form__submit">Submit</button>
                     </form>
+                    <div class="modal" style="display: none;">
+                        <div class="modal__content">
+                            <h4 class="modal__content_title">The letter was sent</h4>
+                            <p class="modal__content_subject" id="mSubject">
+                                default subject
+                            </p>
+                            <p class="modal__content_description" id="mDesc">
+                                default description
+                            </p>
+                            <button class="btn modal__content_btn">OK</button>
+                        </div>
+                    </div>
                     <div class="contact" id="contact">
                         <h3 class="contact__title">Contact Information</h3>
                         <p class="contact__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
@@ -237,6 +276,7 @@
             </div>
         </section>
         <div class="quote__bottom"></div>
+        
         <footer class="footer">
             <div class="footer__wrapper">
                 <p class="footer__copyright">© Copyright 2013 · by PSDchat.com</p>
