@@ -132,6 +132,8 @@ imgContainer.addEventListener('click',(event)=>{
         images.forEach(el => el.classList.remove('selected'));
         event.target.classList.add('selected');
     }
+
+    
 });
 
 imgContainer.addEventListener('mouseover',(event)=>{
