@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    
 }
 a{
   text-decoration: none;
@@ -34,7 +35,11 @@ a{
     align-items: center;
     background-color: #2d303a;
 }
-
+@media (max-width:1020px){
+    .header{
+        width: 100%;
+    }
+}
 
 .header__logo {
     font-size: 25px;
