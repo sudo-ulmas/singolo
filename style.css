@@ -1,7 +1,10 @@
 html{
     scroll-behavior: smooth;
-    background-color: #2d303a;
     
+    
+}
+body{
+    background-color: #2d303a;
 }
 a{
   text-decoration: none;
@@ -112,74 +115,7 @@ li:not(.current){
     content: none;
 }
  
-@media (max-width:1020px){
-    .header{
-        width: 100%;
-    }
-    .header__bottom {
-  
-    width: 100%;
-   
-   
-}
-}
-@media (max-width: 768px){
-.header__logo{
-    margin: 30px auto;
-}
 
-.burger{
-    display: block;
-    
-    transition: all 0.2s ease-out;
-}
-
-.navigation{
-    display: none;
-    
-}
-
-}
-.navigation__mob{
-        display:block;
-        flex-direction:column;
-        margin-top: 184px;
-        margin-right:0px;
-        font-style:normal;
-        font-weight:bold;
-        font-size:24px;
-        line-height:49px;
-        letter-spacing:-0.035em;
-    }
-    .header__mob{
-        align-self:left;
-        margin: 0;
-        width: 73%;
-        height: 100%;
-        flex-direction: column;
-        justify-content:start;
-    }
-    .bottom__mob{
-        display: flex;
-        margin: 0;
-        width: 73%;
-        align-self: left;
-    }
-@media (max-width:375px){
-    .header__logo {
-    
-   
-    color: #ffffff;
-    font-family: "Lato",sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    font-size: 21px;
-    letter-spacing: 0.12px;
-    margin: 24px auto 23px;
-  
-}
-}
 
 
 .slider {
@@ -241,7 +177,7 @@ overflow: hidden;
     bottom: 83px;
     left: 110px;
     z-index: 1;
-    border-radius: 20px;
+   
 }
 #black_vertical{
  position: absolute;
@@ -266,7 +202,7 @@ top: 189px;
     bottom: 204px;
     left: 426px;
     z-index: 1;
-    border-radius: 20px;
+  
  }
 
 .slider__shadow_ver {
@@ -285,7 +221,7 @@ top: 189px;
 
 .slider__btn_left {
     position: absolute;
-    left: 40px;
+    left: 2.5%;
     
     z-index: 2;
 }
@@ -298,7 +234,7 @@ top: 189px;
 
 .slider__btn_right {
     position: absolute;
-    right: 40px;
+    right: 2.5%;
     z-index: 2;
 }
 
@@ -306,6 +242,138 @@ top: 189px;
     opacity: 0.7;
     cursor: pointer;
     transition: all .1s ease-out;
+}
+@media (max-width:1020px){
+    .header{
+        width: 100%;
+    }
+    .header__bottom {
+    width: 100%;
+}
+.slider {
+ width: 100%;
+}
+.first_slide{
+    width: 100vw;
+    height: calc(100vw*594/1020);
+    
+}
+.false_red{
+    width: 100vw;
+    height: calc(100vw*594/1020);
+    
+}
+.second_slide{
+  width: 100vw;
+    height: calc(100vw*594/1020);
+   
+}
+.false_green{
+
+ width: 100vw;
+height: calc(100vw*594/1020);
+}
+.slider__phone_ver {
+   bottom: 13.85%;
+left: 10.85%;
+width: 21.3%;
+height: 77.2%;
+border-radius: 5%;
+}
+#black_vertical{
+top: 19.9%;
+left: 12.45%;
+width: 18.5%;
+height: 57%;
+   
+
+}
+#black_horizontal {
+	width: 32.8%;
+	height: 32.2%;
+	left: 47.67%;
+	top: 31.2%;
+}
+
+.slider__phone_gor {
+   bottom: 34.5%;
+left: 41.8%;
+width: 45%;
+height: 36.5%;
+border-radius: 5%;
+ }
+
+.slider__shadow_ver {
+   top: 9%;
+left: 11%;
+z-index: 0;
+width: 23.7%;
+height: 82%;
+}
+
+.slider__shadow_gor {
+   top: 29.45%;
+left: 42%;
+width: 47.35%;
+height: 41%;
+}
+}
+@media (max-width: 768px){
+.header__logo{
+    margin: 30px auto;
+}
+
+.burger{
+    display: block;
+    
+    transition: all 0.2s ease-out;
+}
+
+.navigation{
+    display: none;
+    
+}
+
+}
+.navigation__mob{
+        display:block;
+        flex-direction:column;
+        margin-top: 184px;
+        margin-right:0px;
+        font-style:normal;
+        font-weight:bold;
+        font-size:24px;
+        line-height:49px;
+        letter-spacing:-0.035em;
+    }
+    .header__mob{
+        align-self:left;
+        margin: 0;
+        width: 73%;
+        height: 100%;
+        flex-direction: column;
+        justify-content:start;
+    }
+    .bottom__mob{
+        display: flex;
+        margin: 0;
+        width: 73%;
+        align-self: left;
+    }
+@media (max-width:375px){
+    .header__logo {
+    
+   
+    color: #ffffff;
+    font-family: "Lato",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 21px;
+    letter-spacing: 0.12px;
+    margin: 24px auto 23px;
+  
+}
 }
 
 .service {

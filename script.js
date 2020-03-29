@@ -44,6 +44,15 @@ function myFunction() {
   
 }
     window.addEventListener('resize', function () {
+        size = carouselImages[0].clientWidth;
+       
+        carousel.style.transition = 'none';
+        prevBtn.style.transition = 'none';
+        nextBtn.style.transition = 'none';
+        
+        carousel.style.transform = 'translateX(' + (-size) * counter + 'px)';
+        prevBtn.style.transform = 'translateX(' + (size) * counter + 'px)';
+        nextBtn.style.transform = 'translateX(' + (size) * counter + 'px)';
     mq.addListener(myFunction());
 });
 
