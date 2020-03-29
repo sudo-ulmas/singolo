@@ -619,15 +619,25 @@ color: #767E9E;
     font-weight: 400;
     text-align: left;
 }
-@media (max-width:1020px){
+@media (max-width:1019px){
     .service {
     width: 100%;
-    height: 496px;
+    height: calc(100vw*800/1020);
     
 }
-.service__description {
-    margin-left: 40px;
+.service__container{
+    width: 100%;
     margin-right: 7.7%;
+}
+.service__item{
+flex: 1 0 45%;
+}
+.service__description {
+    
+    
+}
+.service__item_description p{
+    width: 30vw;
 }
     .header{
         width: 100%;
@@ -704,6 +714,24 @@ height: 41%;
 }
 }
 @media (max-width: 768px){
+     .service {
+    height: calc(92%);
+    
+}
+.service__container{
+}
+.service__item{
+flex: 1 0 70%;
+margin-right: 7.7%;
+width: 100%;
+}
+.service__description {
+    
+    
+}
+.service__item_description p{
+    width: 100%;
+}
 .header__logo{
     margin: 30px auto;
 }
