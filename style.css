@@ -1,10 +1,11 @@
 html{
     scroll-behavior: smooth;
-    
+    scroll-padding-top: 89px;
     
 }
 body{
     background-color: #2d303a;
+    scroll-padding-top: 89px;
 }
 a{
   text-decoration: none;
